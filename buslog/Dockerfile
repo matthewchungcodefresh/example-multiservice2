@@ -14,7 +14,7 @@ RUN pip install --editable .
 
 RUN flask init-db
 
-# Unit tests
+# Unit tests - not needed, will run in CI
 # RUN pip install pytest && pytest
 
 EXPOSE 5000
