@@ -1,5 +1,6 @@
 FROM python:3.8.2-alpine3.11
 
+# Labels
 LABEL cf_account="salesdemo" \
       source="https://github.com/codefresh-contrib/salesdemo-flaskr"
 
