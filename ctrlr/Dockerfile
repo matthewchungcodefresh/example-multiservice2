@@ -6,7 +6,7 @@ LABEL cf_account="salesdemo" \
 
 ENV FLASK_APP=flaskr
 ENV FLASK_ENV=development
-ENV TEST=doda
+ENV TEST=init
 
 COPY . /app
 
