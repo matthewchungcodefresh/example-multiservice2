@@ -8,6 +8,7 @@ ENV FLASK_APP=flaskr
 ENV FLASK_ENV=development
 ENV TEST=init
 ENV TEST2=other
+ENV TEST3=other2
 
 COPY . /app
 
