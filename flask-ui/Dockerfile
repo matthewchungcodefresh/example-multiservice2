@@ -8,6 +8,7 @@ ENV FLASK_APP=flaskr
 ENV FLASK_ENV=development
 
 # Some really cool changes
+# Really cool features
 
 COPY . /app
 
