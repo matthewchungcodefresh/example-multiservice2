@@ -8,8 +8,6 @@ LABEL cf_account="salesdemo" \
 ENV FLASK_APP=flaskr
 ENV FLASK_ENV=development
 
-
-
 COPY . /app
 
 WORKDIR /app
