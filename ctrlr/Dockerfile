@@ -13,7 +13,6 @@ COPY . /app
 WORKDIR /app
 
 RUN pip install --editable .
-
 RUN flask init-db
 
 EXPOSE 5000
